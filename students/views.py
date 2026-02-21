@@ -1,3 +1,7 @@
 from django.shortcuts import render
+from http import HttpResponse 
 
-# Create your views here.
+
+
+def students(request):
+    return HttpResponse("Hello World")
